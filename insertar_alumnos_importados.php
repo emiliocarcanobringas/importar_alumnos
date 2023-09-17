@@ -23,7 +23,7 @@ function insertar_datos($ruta_archivo) {
     array_shift($rows);
 
     foreach ($rows as $row) {
-        $sql = "INSERT INTO Alumnos (Matricula, Nombre, ApellidoPaterno, ApellidoMaterno, Grupo, Email, Celular, FechaNacimiento)
+        $sql = "INSERT INTO alumnos (Matricula, Nombre, ApellidoPaterno, ApellidoMaterno, Grupo, Email, Celular, FechaNacimiento)
                 VALUES ('$row[0]', '$row[1]', '$row[2]', '$row[3]', '$row[4]', '$row[5]', '$row[6]', '$row[7]')";
 
         if ($conexion->query($sql) === TRUE) {
