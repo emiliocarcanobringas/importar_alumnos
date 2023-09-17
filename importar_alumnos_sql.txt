@@ -1,9 +1,12 @@
+-- Crear la base de datos importar_alumnos
 CREATE DATABASE importar_alumnos;
 
+-- Usar la base de datos importar_alumnos
 USE importar_alumnos;
 
+-- Crear la tabla Alumnos
 CREATE TABLE Alumnos (
-    Matricula VARCHAR(20) PRIMARY KEY,
+    Matricula VARCHAR(20) NOT NULL PRIMARY KEY,
     Nombre VARCHAR(100) NOT NULL,
     ApellidoPaterno VARCHAR(100) NOT NULL,
     ApellidoMaterno VARCHAR(100),
