@@ -11,7 +11,7 @@ function insertar_datos($ruta_archivo) {
     $servidor = "localhost";
     $usuario = "root";
     $password = "posgrado123";
-    $base_datos = "importar_alumnos";
+    $base_datos = "gakko_kanri";
 
     $conexion = new mysqli($servidor, $usuario, $password, $base_datos);
 
