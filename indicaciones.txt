@@ -1,0 +1,3 @@
+Instala composer en la carpeta modulo_importar_alumnos
+Genera la carpeta uploads dentro de la carpeta modulo_importar_alumnos
+Instala la libreria phpspreadsheet
